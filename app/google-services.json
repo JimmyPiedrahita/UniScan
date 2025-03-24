@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "801526479074",
+    "project_id": "codigosqrsalon",
+    "storage_bucket": "codigosqrsalon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801526479074:android:8e89f3111500068a2486bb",
+        "android_client_info": {
+          "package_name": "com.example.appqrsalones"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADiXtpkzjK_tTrDfXLKIqr9EoJG-_APtE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

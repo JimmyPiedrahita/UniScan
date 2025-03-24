@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2E3DE"
+    android:orientation="vertical"
+    tools:context="com.example.appqrsalones.activityAgregarSalon">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewHorario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="4dp"
+        android:scrollbars="vertical"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="255dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="77dp"
+        android:fontFamily="sans-serif-black"
+        android:text="AGREGAR HORARIOS"
+        android:textColor="#0F4F95"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform"
+        tools:ignore="MissingConstraints,NotSibling"
+        tools:textStyle="Segoe UI" />
+
+    <EditText
+        android:id="@+id/txt_input_sede"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="31dp"
+        android:backgroundTint="@color/principal"
+        android:hint="Sede"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#B3B3B3"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="214dp"
+        android:layout_marginEnd="221dp"
+        android:backgroundTint="#0F4F95"
+        android:onClick="agregarHorario"
+        android:text="AGREGAR"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="214dp"
+        android:layout_marginEnd="31dp"
+        android:backgroundTint="#0F4F95"
+        android:onClick="guardarInformacionSalon"
+        android:text="GUARDAR"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txt_input_numero"
+        android:layout_width="351dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="31dp"
+        android:backgroundTint="@color/principal"
+        android:hint="Salon"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#B3B3B3"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>

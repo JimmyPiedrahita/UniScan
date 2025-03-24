@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppQrSalones</string>
+    <string name="hint_email_login">Correo Institucional</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="btn_admin">Admin</string>
+    <string name="titulo_numero">Numero</string>
+    <string name="titulo_sede">Sede</string>
+    <string name="default_web_client_id">AIzaSyADiXtpkzjK_tTrDfXLKIqr9EoJG-_APtE</string>
+</resources>
